@@ -1,5 +1,3 @@
-from datetime import datetime
-import os
 from flask import Flask, request, jsonify, g
 from functools import wraps
 import sqlite3
@@ -7,6 +5,8 @@ import logging
 import secrets
 import hashlib
 import re
+from datetime import datetime
+import os
 import json
 
 logging.basicConfig(level=logging.INFO)
