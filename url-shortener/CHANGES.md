@@ -22,6 +22,13 @@
 10) Thread safety with locks
 11) Edge case handling
 
+## Running the refactored Application
+* Install dependencies 
+        `pip install -r requirements.txt`
+* Start Applicaiton
+        `python -m flask --app app.main run`
+* Use Postman for URL confirmation
+
 ### Note:
 - Used Clude.ai for error handling and quality features
 - Used gemini for clean coding
